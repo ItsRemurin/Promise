@@ -13,6 +13,6 @@ public class PromiseMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		PromiseItems.Init();
 	}
 }
