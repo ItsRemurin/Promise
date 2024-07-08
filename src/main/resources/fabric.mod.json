@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "promise",
+	"version": "${version}",
+	"name": "Minecraft: Promise",
+	"description": "",
+	"authors": [
+		"ItsRemurin"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/ItsRemurin/Promise"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/promise/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.itsremurin.promise.PromiseMod"
+		],
+		"client": [
+			"com.itsremurin.promise.PromiseModClient"
+		]
+	},
+	"mixins": [
+		"promise.mixins.json",
+		{
+			"config": "promise.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

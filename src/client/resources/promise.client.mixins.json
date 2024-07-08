@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.itsremurin.promise.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ChatInputSuggestorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.itsremurin.promise.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "WitherSkeletonEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
